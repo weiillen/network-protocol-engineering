@@ -66,9 +66,7 @@ make
 
 Repeat from the other project directories as needed. Detailed run instructions are provided in each project README.
 
-## Verification
 
-During portfolio packaging, all three projects compiled successfully from the preserved files. The two local client/server projects also completed smoke tests without source modification. See [docs/VERIFICATION.md](docs/VERIFICATION.md).
 
 ## Scope and limitations
 
@@ -80,8 +78,3 @@ These are compact educational implementations rather than production network sta
 - simplified packet-loss and acknowledgement behavior in the congestion-control model;
 - single-process, single-client server structure rather than concurrent request handling.
 
-The limitations are documented rather than silently corrected so the repository remains an accurate record of the original work.
-
-## Provenance
-
-The programs originated in an introductory computer-networks course and are curated here as a technical portfolio. Assignment sheets, reports, compiled binaries, editor settings, packet captures, and starter archives were intentionally excluded from the public-facing repository. See [PRESERVATION.md](PRESERVATION.md) for the exact preservation policy.
